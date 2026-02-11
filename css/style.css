@@ -8,27 +8,54 @@ body {
 }
 
 header, nav, footer {
-    background-color: #dcdcdc;
+    background-color: blanchedalmond;
     padding: 16px;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    background-color: azure;
+    text-decoration: none;
+    gap: 24px;
+    padding: 12px;
+    color: black;
+    font-weight: bold;
 }
 
 main {
     padding: 16px;
-}
-
-aside {
-    background-color: #ffd6d6;
-    padding: 16px;
+    display: flex;
+    gap: 16px;
 }
 
 article {
-    background-color: #cce5ff;
+    background-color: cornflowerblue;
+    padding: 16px;
+    flex: 2;
+}
+
+article img{
+    width: 100%;
+    height: auto;
+    margin: 16px 0;
+    border-radius: 8px;
+}
+
+
+aside {
+    background-color:cadetblue;
     padding: 16px;
 }
 
+.left,
+.right {
+    flex: 1;
+}
+
 section {
-    background-color: white;
+    background-color: antiquewhite;
     padding: 8px;
     margin: 8px 0;
 }
